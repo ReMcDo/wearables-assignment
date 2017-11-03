@@ -4,3 +4,4 @@
 
 - Script is in run_analysis.R
 - Codebook is in CodeBook.md
+- Tidy data is in tidywear.txt

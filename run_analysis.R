@@ -50,6 +50,8 @@ described <- right_join(labs,extracted,by="activitynumber") %>% # join activity 
 groupedmeans <- group_by(described,subject,activity) %>%
   summarize_all(mean,na.rm=T)
 
+write.table(groupedmeans,"tidywear.txt",row.name=F)
+
 
 
 
